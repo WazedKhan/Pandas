@@ -7,5 +7,5 @@ data = {
 }
 
 employees = pd.DataFrame(data)
-employees["salary"] = employees["salary"] * 2
+employees["salary"] = employees["salary"].apply(lambda x: x * 2)
 ic(employees)
