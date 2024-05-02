@@ -8,5 +8,5 @@ data = {
 }
 
 students = pd.DataFrame(data)
-students["grade"] = students["grade"].astype(int)
-print(students["grade"].dtype)
+students = students.astype({"grade": int, "age": "float"})
+print(students)
