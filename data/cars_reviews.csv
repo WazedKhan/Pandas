@@ -1,0 +1,6 @@
+car_id,model,review_score,review_count
+1,Toyota Corolla,4.2,150
+2,Honda Civic,4.2,200
+12,Mercedes-Benz C-Class,3.9,60
+13,Audi A4,NaN,40
+14,Lexus IS,4.0,70
